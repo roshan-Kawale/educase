@@ -1,13 +1,11 @@
 // App.jsx
-import React from 'react'
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './assets/components/Home';
-import Login from './assets/components/Login';
-import SignUp from './assets/components/SignUp';
-import Account from './assets/components/Account';
-import MainLayout from './assets/components/MainLayout';
-
-
+import Home from "./components/Home";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import Account from "./components/Account";
+import MainLayout from "./components/MainLayout";
 
 const App = () => {
   return (
